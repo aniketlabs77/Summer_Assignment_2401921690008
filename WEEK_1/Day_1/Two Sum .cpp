@@ -13,6 +13,7 @@ public:
 
             mp[nums[i]] = i  ; 
         }
+        cout << leetcode work  << endl ; 
         return {-1 , -1} ; 
     }
 };
