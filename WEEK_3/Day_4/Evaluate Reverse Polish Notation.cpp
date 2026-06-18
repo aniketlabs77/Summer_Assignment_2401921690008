@@ -42,6 +42,7 @@ public:
                 st.push(a/b);  
             }
             else{
+                
                 st.push(stoi(x)); 
             }
             

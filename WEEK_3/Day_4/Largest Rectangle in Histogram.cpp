@@ -42,6 +42,7 @@ public:
 
     int largestRectangleArea(vector<int>& heights) {
         int n = heights.size();
+        
         vector<int> nse = nseFn(heights);
         vector<int> pse = pseFn(heights);
 
